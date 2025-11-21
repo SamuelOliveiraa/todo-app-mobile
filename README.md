@@ -1,5 +1,7 @@
 ## Todo App
 
+![Imagem do Projeto](/src/assets/og-image.png)
+
 Este é um aplicativo de lista de tarefas (Todo App) desenvolvido em React Native utilizando Expo, NativeWind (Tailwind CSS para React Native) e armazenamento local com AsyncStorage.
 
 ---
