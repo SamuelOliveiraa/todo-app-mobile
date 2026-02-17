@@ -1,32 +1,32 @@
 ## Todo App
 
-![Imagem do Projeto](/src/assets/og-image.png)
+![Project Image](/src/assets/og-image.png)
 
-Este é um aplicativo de lista de tarefas (Todo App) desenvolvido em React Native utilizando Expo, NativeWind (Tailwind CSS para React Native) e armazenamento local com AsyncStorage.
-
----
-
-## Funcionalidades
-
-- Adicionar, marcar/desmarcar e remover tarefas
-- Contador de tarefas criadas e concluídas
-- Interface responsiva e estilizada com Tailwind via NativeWind
-- Armazenamento persistente das tarefas no dispositivo
+This is a Todo App developed in React Native using Expo, NativeWind (Tailwind CSS for React Native), and local storage with AsyncStorage.
 
 ---
 
-## Tecnologias Utilizadas
+## Features
 
-- [React Native](https://reactnative.dev/)
-- [Expo](https://expo.dev/)
-- [NativeWind](https://www.nativewind.dev/) (Tailwind CSS para React Native)
-- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/)
-- [Expo Router](https://expo.github.io/router/docs/)
-- [Expo Google Fonts](https://docs.expo.dev/guides/using-custom-fonts/)
+- Add, check/uncheck, and remove tasks
+- Counter for created and completed tasks
+- Responsive and styled interface with Tailwind via NativeWind
+- Persistent storage of tasks on the device
 
 ---
 
-## Estrutura do Projeto
+## Technologies Used
+
+- [React Native](httpss://reactnative.dev/)
+- [Expo](httpss://expo.dev/)
+- [NativeWind](httpss://www.nativewind.dev/) (Tailwind CSS for React Native)
+- [AsyncStorage](httpss://react-native-async-storage.github.io/async-storage/)
+- [Expo Router](httpss://expo.github.io/router/docs/)
+- [Expo Google Fonts](httpss://docs.expo.dev/guides/using-custom-fonts/)
+
+---
+
+## Project Structure
 
 ```
 src/
@@ -39,51 +39,51 @@ src/
   styles/
 ```
 
-- Os componentes principais estão em components
-- O armazenamento das tarefas está em taskStorage.ts
-- As configurações de estilos estão em colors.ts e global.css
+- The main components are in `components`
+- Task storage is in `taskStorage.ts`
+- Style settings are in `colors.ts` and `global.css`
 
 ---
 
-## Como rodar o projeto
+## How to run the project
 
-1. Instale as dependências:
+1.  Install the dependencies:
 
 ```sh
 npm install
 ```
 
-2. Inicie o projeto:
+2.  Start the project:
 
 ```sh
 npm start
 ```
 
-3. Siga as instruções do Expo para rodar no emulador ou dispositivo físico.
+3.  Follow the Expo instructions to run on an emulator or physical device.
 
 ---
 
-## Scripts Disponíveis
+## Available Scripts
 
-- `npm start` — inicia o servidor de desenvolvimento Expo
-- `npm run android` — inicia no emulador Android
-- `npm run ios` — inicia no emulador iOS
-- `npm run web` — inicia no navegador
-
----
-
-## Personalização
-
-- As cores podem ser alteradas em colors.ts
-- Os estilos globais estão em global.css
-- Os ícones estão em assets
+- `npm start` — starts the Expo development server
+- `npm run android` — starts on the Android emulator
+- `npm run ios` — starts on the iOS emulator
+- `npm run web` — starts in the browser
 
 ---
 
-## Licença
+## Customization
 
-Este projeto é apenas para fins de estudo e aprendizado.
+- Colors can be changed in `colors.ts`
+- Global styles are in `global.css`
+- Icons are in `assets`
 
 ---
 
-Desenvolvido com 💜 por Rocketseat e desenvolvido por mim! 🚀
+## License
+
+This project is for study and learning purposes only.
+
+---
+
+Developed with 💜 by Rocketseat and developed by me! 🚀
